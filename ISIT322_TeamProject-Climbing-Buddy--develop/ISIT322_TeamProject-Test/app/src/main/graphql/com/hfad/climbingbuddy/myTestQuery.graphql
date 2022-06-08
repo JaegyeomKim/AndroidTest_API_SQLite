@@ -1,0 +1,6 @@
+query MyQuery {
+    areas (filter: {area_name: {exactMatch: true, match: "(2) Orange Wall"}}){
+        uuid
+        area_name
+    }
+}
